@@ -24,4 +24,15 @@
 -- | Billy      | Hamilton  |
 -- | Ian        | Happ      |
 
+-- What are the first and last names of the players who 
+-- played for the 2020 Chicago Cubs?
 
+SELECT players.first_name, players.last_name
+FROM stats -- I did this because this is what is beind double joined
+INNER JOIN players
+ON players.id = stats.player_id
+INNER JOIN teams
+ON teams.id = stats.team_id
+WHERE teams.name = "Chicago Cubs"
+AND teams.year = 2020
+;
