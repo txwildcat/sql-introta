@@ -1,2 +1,2 @@
 -- Drop the phone number column
-
+-- WE DID NOT DO THIS SO DON'T WORRY ABOUT IT

@@ -1,0 +1,13 @@
+INSERT INTO students (
+    first_name,
+    last_name,
+    email
+) VALUES (
+    "TYLER",
+    "ASKREN",
+    "TASKREN@GMAIL.COM"
+);
+
+-- NOTE THAT WHEN YOU'VE ALREADY DELETED AN ENTRY, IT WILL AUTO INCREMENT A NEW KEY
+-- CHECK OUT 
+-- SELECT * FROM students; IN THE TERMINAL

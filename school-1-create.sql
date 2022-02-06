@@ -1,4 +1,4 @@
--- Create the students table
+-- Create the students table -- pre written code for creating a table
 
 CREATE TABLE students (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
